@@ -1,0 +1,9 @@
+name: MinecraftBut
+version: '${project.version}'
+main: xyz.pugly.minecraftbut.MinecraftBut
+api-version: 1.20
+commands:
+  minecraftbut:
+    description: MinecraftBut command
+    usage: /<command> [args...]
+    aliases: [mb]

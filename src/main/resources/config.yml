@@ -1,0 +1,57 @@
+title: <rainbow>Minecraft <bold>But</bold></rainbow>
+modules:
+  movement_enchants:
+    enabled: false
+    name: <yellow>Enchants</yellow>
+    description: Adds random enchants to players items as they move.
+    distance: 10
+    messages: false
+    #
+  random_mob_drops:
+    enabled: false
+    name: <red>Random Mob Drops</red>
+    description: Randomly drops items from mobs.
+    max_items: 5
+    min_items: 1
+    #
+  random_block_drops:
+    enabled: false
+    name: <green>Random Block Drops</green>
+    description: Randomly drops items from blocks.
+    #
+  shared_health:
+    enabled: false
+    name: <red>Shared Health</red>
+    description: Players share health.
+    #
+  shared_death:
+    enabled: false
+    name: <red>Shared Death</red>
+    description: If one player dies, everyone dies.
+    #
+  random_effects:
+    enabled: false
+    name: <red>Random Effects</red>
+    description: Players get random potion effects.
+    delay: 100
+    duration: 100
+    individual: false
+    #
+  random_items:
+    enabled: false
+    name: <gold>Random Items</gold>
+    description: Players get random items.
+    delay: 100
+    #
+  random_eggs:
+    enabled: false
+    name: <green>Random Eggs</green>
+    description: Chickens drop random items instead of eggs.
+    #
+  randomly_explode:
+    enabled: false
+    name: <red>Randomly Explode</red>
+    description: Players randomly explode.
+    delay: 100
+    chance: 0.02
+    #
